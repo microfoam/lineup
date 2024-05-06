@@ -1,0 +1,80 @@
+                                               < vnd_getworked_clean >
+Surf wave report summary: 
+._M                                                                                                                           
+\\\_P                                                                                                                         
+\\\\\_G                                                                                            \v/                        
+\\\\\\\_A_________.~~.o.~"~._.~`"~._.~"~._.~"~._.~"~._.~`"~._.~"~._.~"~._^_.~"~._.~"~._.~"~._.~`"~.-0-.~"~._.~"~._.~"~._.~"~._
+```````^:^````````                                                                                 /|\                        
+First and last runs:
+v5.02	May  6 09:54:06 2024	b3 x0	0.876	0.645	0.479	P:1000 R:1000 waves/seals/vnd_ex3_Dmela.txt (+956 bp)	 
+v5.02	May  6 09:54:10 2024	b3 x0	0.869	0.616	0.459	P:1000 R:1000 waves/sharks/nab_DWME_Dmela.txt (+764 bp)	 
+
+Number of tests initiated:         15
+Number of tests completed:         15
+Number of tests w/ PASS 1000:      15
+Number of tests w/ REC. 1000:      15
+
+Tests canceled (if any, w/ preceding run for context):
+Tests with PASS < 1000 (if any):
+Tests with REC. < 1000 (if any):
+
+WCR-t average: 0.862933
+WCR-k average: 0.6212
+WCR-d average: 0.4722
+
+WCR avg history (15 tests @ b=3): 0.4794 ->0.471133 ->0.471933 ->0.4722
+
+                                               < vnd_getworked_ragdoll >
+Darwin 23.4.0 arm64 arm
+Surf wave report summary: 
+._M                                                                                                                           
+\\\_P                                                                                                                         
+\\\\\_G                                                                                            \v/                        
+\\\\\\\_A_________.~~.o.~"~._.~`"~._.~"~._.~"~._.~"~._.~`"~._.~"~._.~"~._^_.~"~._.~"~._.~"~._.~`"~.-0-.~"~._.~"~._.~"~._.~"~._
+```````^:^````````                                                                                 /|\                        
+First and last runs:
+v5.02	May  6 09:54:52 2024	b3 x1	0.870	0.630	0.540	P:1000 R:1000 waves/seals/vnd_ex3_Dmela.txt (+100 bp)	 
+v5.02	May  6 10:01:17 2024	b3 x1	0.900	0.630	0.450	P:1000 R:1000 waves/sharks/vnd_NEE_Dsuzu.txt (-100 bp)	 
+
+Number of tests initiated:         150000
+Number of tests completed:         150000
+Number of tests w/ PASS 1000:      150000
+Number of tests w/ REC. 1000:      150000
+
+Tests canceled (if any, w/ preceding run for context):
+Tests with PASS < 1000 (if any):
+Tests with REC. < 1000 (if any):
+
+WCR-t average: 0.834012
+WCR-k average: 0.594161
+WCR-d average: 0.488144
+
+WCR avg history (150k tests @ b=3): ~0.4998--0.5002
+
+                                               < vnd_getworked_ragdoll >
+Darwin 23.4.0 arm64 arm
+Surf wave report summary: 
+._M                                                                                                                           
+\\\_P                                                                                                                         
+\\\\\_G                                                                                            \v/                        
+\\\\\\\_A_________.~~.o.~"~._.~`"~._.~"~._.~"~._.~"~._.~`"~._.~"~._.~"~._^_.~"~._.~"~._.~"~._.~`"~.-0-.~"~._.~"~._.~"~._.~"~._
+```````^:^````````                                                                                 /|\                        
+First and last runs:
+v5.02	May  6 10:10:23 2024	b3 x1	0.880	0.670	0.500	P:1000 R:1000 waves/seals/vnd_ex3_Dmela.txt (+100 bp)	 
+v5.02	May  6 10:16:47 2024	b3 x1	0.750	0.500	0.430	P:1000 R:1000 waves/sharks/vnd_NEE_Dsuzu.txt (-100 bp)	 
+
+Number of tests initiated:         150000
+Number of tests completed:         150000
+Number of tests w/ PASS 1000:      150000
+Number of tests w/ REC. 1000:      150000
+
+Tests canceled (if any, w/ preceding run for context):
+Tests with PASS < 1000 (if any):
+Tests with REC. < 1000 (if any):
+
+WCR-t average: 0.834035
+WCR-k average: 0.594259
+WCR-d average: 0.4881
+
+WCR avg history (150k tests @ b=3): ~0.4998--0.5002 -> ~0.490 (v5.02)
+

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ -f waves/foam_and_chowder.mha ]; then
+	mv waves/foam_and_chowder.mha waves/foam_and_chowder.log
+fi
+
+if [ -f Surf_wavereport.mha ]; then
+	mv Surf_wavereport.mha Surf_wavereport.log
+fi
+
+#clear
+./surfboard-checklog | tee -a Corduroy.log
+

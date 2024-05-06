@@ -1,0 +1,74 @@
+#!/bin/bash
+ 
+if [ ! -f lineup ]; then
+	./surfboard-Pop_Up
+fi
+if [ -f Surf_wavereport.mha ]; then
+	rm Surf_wavereport.mha
+fi
+if [ -f TUBES.mha ]; then
+	rm TUBES.mha
+fi
+if [ -f TUBES.barrels ]; then
+	mv TUBES.barrels local_tmp/
+fi
+if [ -f TUBES.curls ]; then
+	mv TUBES.curls local_tmp/
+fi
+
+date > TUBES.curls
+echo >> TUBES.curls
+echo '1. vnd_edgeNEE_Dmaur.txt' >> TUBES.curls
+echo '2. vnd_edgeNEE_Dsimu.txt' >> TUBES.curls
+./lineup -O2 waves/sharks/vnd_edgeNEE_Dmaur.txt
+./lineup -O2 waves/sharks/vnd_edgeNEE_Dsimu.txt TUBES.mha
+cat TUBES.mha >> TUBES.curls
+rm TUBES.mha
+
+echo >> TUBES.curls
+echo '1. vnd_edgeNEE_Dsimu.txt' >> TUBES.curls
+echo '2. vnd_edgeNEE_Dmaur.txt' >> TUBES.curls
+./lineup -O2 waves/sharks/vnd_edgeNEE_Dsimu.txt
+./lineup -O2 waves/sharks/vnd_edgeNEE_Dmaur.txt TUBES.mha
+cat TUBES.mha >> TUBES.curls
+echo >> TUBES.curls
+rm TUBES.mha
+
+date >> TUBES.curls
+echo >> TUBES.curls
+echo '1. vnd_edgeNEE_Dmaur.txt -x' >> TUBES.curls
+echo '2. vnd_edgeNEE_Dsimu.txt' >> TUBES.curls
+./lineup -v3 -O2 -x waves/sharks/vnd_edgeNEE_Dmaur.txt
+./lineup -v3 -O2    waves/sharks/vnd_edgeNEE_Dsimu.txt TUBES.mha
+cat TUBES.mha >> TUBES.curls
+rm TUBES.mha
+
+echo >> TUBES.curls
+echo '1. vnd_edgeNEE_Dsimu.txt' >> TUBES.curls
+echo '2. vnd_edgeNEE_Dmaur.txt -x' >> TUBES.curls
+./lineup -O2    waves/sharks/vnd_edgeNEE_Dsimu.txt
+./lineup -O2 -x waves/sharks/vnd_edgeNEE_Dmaur.txt TUBES.mha
+cat TUBES.mha >> TUBES.curls
+echo >> TUBES.curls
+rm TUBES.mha
+
+date >> TUBES.curls
+echo >> TUBES.curls
+echo '1. vnd_edgeNEE_Dmaur.txt -x' >> TUBES.curls
+echo '2. vnd_edgeNEE_Dsimu.txt -x' >> TUBES.curls
+./lineup -O2 -x waves/sharks/vnd_edgeNEE_Dmaur.txt
+./lineup -O2 -x waves/sharks/vnd_edgeNEE_Dsimu.txt TUBES.mha
+cat TUBES.mha >> TUBES.curls
+rm TUBES.mha
+
+echo >> TUBES.curls
+echo '1. vnd_edgeNEE_Dsimu.txt -x' >> TUBES.curls
+echo '2. vnd_edgeNEE_Dmaur.txt -x' >> TUBES.curls
+./lineup -O2 -x waves/sharks/vnd_edgeNEE_Dsimu.txt
+./lineup -O2 -x waves/sharks/vnd_edgeNEE_Dmaur.txt TUBES.mha
+cat TUBES.mha >> TUBES.curls
+echo >> TUBES.curls
+rm TUBES.mha
+
+mv Surf_wavereport.mha Surf_wavereport.tubes
+

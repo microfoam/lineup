@@ -1,0 +1,305 @@
+                                               < ragdoll washing machine >
+System:
+Darwin 23.4.0 arm64 arm
+Codebase line counts:
+    2048 src/lineup_v5.02.c
+    1154 src/microhom-cinc.h
+     104 src/microhom-devl.h
+     111 src/microhom-skor.h
+    2189 src/microhom-tela.h
+    1580 src/microhomology.h
+    7186 total
+
+Surf wave report summary: 
+._M                                                                                                                           
+\\\_P                                                                                                                         
+\\\\\_G                                                                                            \v/                        
+\\\\\\\_A_________.~~.o.~"~._.~`"~._.~"~._.~"~._.~"~._.~`"~._.~"~._.~"~._^_.~"~._.~"~._.~"~._.~`"~.-0-.~"~._.~"~._.~"~._.~"~._
+```````^:^````````                                                                                 /|\                        
+First and last runs:
+v5.02	May  5 19:01:46 2024	b3 x1	0.750	0.490	0.390	P:1000 R:1000 waves/experimental/pattern-1a-20pc_GC.txt (+100 bp)	 
+v5.02	May  5 19:07:40 2024	b3 x1	0.863	0.450	0.350	P:1000 R:1000 waves/experimental/pattern-5a-92pc_Y.txt (+80 bp)	 
+
+Number of tests initiated:         140000
+Number of tests completed:         140000
+Number of tests w/ PASS 1000:      140000
+Number of tests w/ REC. 1000:      140000
+
+Tests canceled (if any, w/ preceding run for context):
+Tests with PASS < 1000 (if any):
+Tests with REC. < 1000 (if any):
+
+WCR-t average: 0.816214
+WCR-k average: 0.551572
+WCR-d average: 0.436961
+
+WCR avg history (140k tests @ b=3): ~0.4365--0.4367
+
+                                               < ragdoll washing machine >
+System:
+Darwin 23.4.0 arm64 arm
+Codebase line counts:
+    2048 src/lineup_v5.02.c
+    1154 src/microhom-cinc.h
+     104 src/microhom-devl.h
+     111 src/microhom-skor.h
+    2189 src/microhom-tela.h
+    1580 src/microhomology.h
+    7186 total
+
+Surf wave report summary: 
+._M                                                                                                                           
+\\\_P                                                                                                                         
+\\\\\_G                                                                                            \v/                        
+\\\\\\\_A_________.~~.o.~"~._.~`"~._.~"~._.~"~._.~"~._.~`"~._.~"~._.~"~._^_.~"~._.~"~._.~"~._.~`"~.-0-.~"~._.~"~._.~"~._.~"~._
+```````^:^````````                                                                                 /|\                        
+First and last runs:
+v5.02	May  5 19:22:58 2024	b3 x1	0.960	0.590	0.380	P:1000 R:1000 waves/experimental/pattern-1a-20pc_GC.txt (+100 bp)	 
+v5.02	May  5 19:28:55 2024	b3 x1	0.650	0.412	0.338	P:1000 R:1000 waves/experimental/pattern-5a-92pc_Y.txt (+80 bp)	 
+
+Number of tests initiated:         140000
+Number of tests completed:         140000
+Number of tests w/ PASS 1000:      140000
+Number of tests w/ REC. 1000:      140000
+
+Tests canceled (if any, w/ preceding run for context):
+Tests with PASS < 1000 (if any):
+Tests with REC. < 1000 (if any):
+
+WCR-t average: 0.816303
+WCR-k average: 0.551591
+WCR-d average: 0.436872
+
+WCR avg history (140k tests @ b=3): ~0.4365--0.4367
+
+                                               < ragdoll washing machine >
+System:
+Darwin 23.4.0 arm64 arm
+Codebase line counts:
+    2048 src/lineup_v5.02.c
+    1154 src/microhom-cinc.h
+     104 src/microhom-devl.h
+     111 src/microhom-skor.h
+    2189 src/microhom-tela.h
+    1580 src/microhomology.h
+    7186 total
+
+Surf wave report summary: 
+._M                                                                                                                           
+\\\_P                                                                                                                         
+\\\\\_G                                                                                            \v/                        
+\\\\\\\_A_________.~~.o.~"~._.~`"~._.~"~._.~"~._.~"~._.~`"~._.~"~._.~"~._^_.~"~._.~"~._.~"~._.~`"~.-0-.~"~._.~"~._.~"~._.~"~._
+```````^:^````````                                                                                 /|\                        
+First and last runs:
+v5.02	May  5 19:41:36 2024	b3 x1	0.730	0.550	0.430	P:1000 R:1000 waves/experimental/pattern-1a-20pc_GC.txt (+100 bp)	 
+v5.02	May  5 19:47:23 2024	b3 x1	0.837	0.500	0.325	P:1000 R:1000 waves/experimental/pattern-5a-92pc_Y.txt (+80 bp)	 
+
+Number of tests initiated:         140000
+Number of tests completed:         140000
+Number of tests w/ PASS 1000:      140000
+Number of tests w/ REC. 1000:      140000
+
+Tests canceled (if any, w/ preceding run for context):
+Tests with PASS < 1000 (if any):
+Tests with REC. < 1000 (if any):
+
+WCR-t average: 0.816323
+WCR-k average: 0.551725
+WCR-d average: 0.436972
+
+WCR avg history (140k tests @ b=3): ~0.4365--0.4367
+
+                                               < ragdoll washing machine >
+System:
+Darwin 23.4.0 arm64 arm
+Codebase line counts:
+    2048 src/lineup_v5.02.c
+    1154 src/microhom-cinc.h
+     104 src/microhom-devl.h
+     111 src/microhom-skor.h
+    2189 src/microhom-tela.h
+    1580 src/microhomology.h
+    7186 total
+
+Surf wave report summary: 
+._M                                                                                                                           
+\\\_P                                                                                                                         
+\\\\\_G                                                                                            \v/                        
+\\\\\\\_A_________.~~.o.~"~._.~`"~._.~"~._.~"~._.~"~._.~`"~._.~"~._.~"~._^_.~"~._.~"~._.~"~._.~`"~.-0-.~"~._.~"~._.~"~._.~"~._
+```````^:^````````                                                                                 /|\                        
+First and last runs:
+v5.02	May  5 20:05:10 2024	b3 x1	0.760	0.580	0.510	P:1000 R:1000 waves/experimental/pattern-1a-20pc_GC.txt (+100 bp)	 
+v5.02	May  5 20:10:56 2024	b3 x1	0.775	0.475	0.475	P:1000 R:1000 waves/experimental/pattern-5a-92pc_Y.txt (+80 bp)	 
+
+Number of tests initiated:         140000
+Number of tests completed:         140000
+Number of tests w/ PASS 1000:      140000
+Number of tests w/ REC. 1000:      140000
+
+Tests canceled (if any, w/ preceding run for context):
+Tests with PASS < 1000 (if any):
+Tests with REC. < 1000 (if any):
+
+WCR-t average: 0.816227
+WCR-k average: 0.551769
+WCR-d average: 0.436956
+
+WCR avg history (140k tests @ b=3): ~0.4365--0.4367
+
+                                               < ragdoll washing machine >
+System:
+Darwin 23.4.0 arm64 arm
+Codebase line counts:
+    2048 src/lineup_v5.02.c
+    1154 src/microhom-cinc.h
+     104 src/microhom-devl.h
+     111 src/microhom-skor.h
+    2189 src/microhom-tela.h
+    1580 src/microhomology.h
+    7186 total
+
+Surf wave report summary: 
+._M                                                                                                                           
+\\\_P                                                                                                                         
+\\\\\_G                                                                                            \v/                        
+\\\\\\\_A_________.~~.o.~"~._.~`"~._.~"~._.~"~._.~"~._.~`"~._.~"~._.~"~._^_.~"~._.~"~._.~"~._.~`"~.-0-.~"~._.~"~._.~"~._.~"~._
+```````^:^````````                                                                                 /|\                        
+First and last runs:
+v5.02	May  5 20:22:14 2024	b3 x1	0.840	0.580	0.470	P:1000 R:1000 waves/experimental/pattern-1a-20pc_GC.txt (+100 bp)	 
+v5.02	May  5 20:27:59 2024	b3 x1	0.738	0.488	0.363	P:1000 R:1000 waves/experimental/pattern-5a-92pc_Y.txt (+80 bp)	 
+
+Number of tests initiated:         140000
+Number of tests completed:         140000
+Number of tests w/ PASS 1000:      140000
+Number of tests w/ REC. 1000:      140000
+
+Tests canceled (if any, w/ preceding run for context):
+Tests with PASS < 1000 (if any):
+Tests with REC. < 1000 (if any):
+
+WCR-t average: 0.816142
+WCR-k average: 0.551658
+WCR-d average: 0.436895
+
+WCR avg history (140k tests @ b=3): ~0.4365--0.4367
+
+                                               < ragdoll washing machine >
+System:
+Darwin 23.4.0 arm64 arm
+Codebase line counts:
+    2048 src/lineup_v5.02.c
+    1154 src/microhom-cinc.h
+     104 src/microhom-devl.h
+     111 src/microhom-skor.h
+    2189 src/microhom-tela.h
+    1580 src/microhomology.h
+    7186 total
+
+Sun May  5 20:38:06 CDT 2024
+Tri-fin dawn patrol: Compiling lineup v5.02.
+
+Surf wave report summary: 
+._M                                                                                                                           
+\\\_P                                                                                                                         
+\\\\\_G                                                                                            \v/                        
+\\\\\\\_A_________.~~.o.~"~._.~`"~._.~"~._.~"~._.~"~._.~`"~._.~"~._.~"~._^_.~"~._.~"~._.~"~._.~`"~.-0-.~"~._.~"~._.~"~._.~"~._
+```````^:^````````                                                                                 /|\                        
+First and last runs:
+v5.02	May  5 20:38:10 2024	b3 x1	0.790	0.540	0.380	P:1000 R:1000 waves/experimental/pattern-1a-20pc_GC.txt (+100 bp)	 
+v5.02	May  5 20:43:56 2024	b3 x1	0.775	0.463	0.312	P:1000 R:1000 waves/experimental/pattern-5a-92pc_Y.txt (+80 bp)	 
+
+Number of tests initiated:         140000
+Number of tests completed:         140000
+Number of tests w/ PASS 1000:      140000
+Number of tests w/ REC. 1000:      140000
+
+Tests canceled (if any, w/ preceding run for context):
+Tests with PASS < 1000 (if any):
+Tests with REC. < 1000 (if any):
+
+WCR-t average: 0.816239
+WCR-k average: 0.551654
+WCR-d average: 0.436847
+
+WCR avg history (140k tests @ b=3): ~0.4365--0.4367
+
+                                               < ragdoll washing machine >
+System:
+Darwin 23.4.0 arm64 arm
+Codebase line counts:
+    2048 src/lineup_v5.02.c
+    1154 src/microhom-cinc.h
+     104 src/microhom-devl.h
+     111 src/microhom-skor.h
+    2189 src/microhom-tela.h
+    1580 src/microhomology.h
+    7186 total
+
+Sun May  5 21:07:00 CDT 2024
+Tri-fin dawn patrol: Compiling lineup v5.02.
+
+Surf wave report summary: 
+._M                                                                                                                           
+\\\_P                                                                                                                         
+\\\\\_G                                                                                            \v/                        
+\\\\\\\_A_________.~~.o.~"~._.~`"~._.~"~._.~"~._.~"~._.~`"~._.~"~._.~"~._^_.~"~._.~"~._.~"~._.~`"~.-0-.~"~._.~"~._.~"~._.~"~._
+```````^:^````````                                                                                 /|\                        
+First and last runs:
+v5.02	May  5 21:07:03 2024	b3 x1	0.810	0.570	0.480	P:1000 R:1000 waves/experimental/pattern-1a-20pc_GC.txt (+100 bp)	 
+v5.02	May  5 21:12:48 2024	b3 x1	0.863	0.438	0.262	P:1000 R:1000 waves/experimental/pattern-5a-92pc_Y.txt (+80 bp)	 
+
+Number of tests initiated:         140000
+Number of tests completed:         140000
+Number of tests w/ PASS 1000:      140000
+Number of tests w/ REC. 1000:      140000
+
+Tests canceled (if any, w/ preceding run for context):
+Tests with PASS < 1000 (if any):
+Tests with REC. < 1000 (if any):
+
+WCR-t average: 0.816402
+WCR-k average: 0.551752
+WCR-d average: 0.436852
+
+WCR avg history (140k tests @ b=3): ~0.4365--0.4367
+
+                                               < ragdoll washing machine >
+System:
+Darwin 23.4.0 arm64 arm
+Codebase line counts:
+    2048 src/lineup_v5.02.c
+    1154 src/microhom-cinc.h
+     104 src/microhom-devl.h
+     111 src/microhom-skor.h
+    2189 src/microhom-tela.h
+    1580 src/microhomology.h
+    7186 total
+
+Sun May  5 21:23:52 CDT 2024
+Tri-fin dawn patrol: Compiling lineup v5.02.
+
+Surf wave report summary: 
+._M                                                                                                                           
+\\\_P                                                                                                                         
+\\\\\_G                                                                                            \v/                        
+\\\\\\\_A_________.~~.o.~"~._.~`"~._.~"~._.~"~._.~"~._.~`"~._.~"~._.~"~._^_.~"~._.~"~._.~"~._.~`"~.-0-.~"~._.~"~._.~"~._.~"~._
+```````^:^````````                                                                                 /|\                        
+First and last runs:
+v5.02	May  5 21:23:56 2024	b3 x1	0.690	0.530	0.500	P:1000 R:1000 waves/experimental/pattern-1a-20pc_GC.txt (+100 bp)	 
+v5.02	May  5 21:29:42 2024	b3 x1	0.600	0.463	0.412	P:1000 R:1000 waves/experimental/pattern-5a-92pc_Y.txt (+80 bp)	 
+
+Number of tests initiated:         140000
+Number of tests completed:         140000
+Number of tests w/ PASS 1000:      140000
+Number of tests w/ REC. 1000:      140000
+
+Tests canceled (if any, w/ preceding run for context):
+Tests with PASS < 1000 (if any):
+Tests with REC. < 1000 (if any):
+
+WCR-t average: 0.816459
+WCR-k average: 0.551798
+WCR-d average: 0.43685
+
+WCR avg history (140k tests @ b=3): ~0.4365--0.4367
+

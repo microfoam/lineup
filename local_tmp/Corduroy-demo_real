@@ -1,0 +1,27 @@
+
+                                               < demo_real >
+Surf wave report summary: 
+._M                                                                                                                           
+\\\_P                                                                                                                         
+\\\\\_G                                                                                            \v/                        
+\\\\\\\_A_________.~~.o.~"~._.~`"~._.~"~._.~"~._.~"~._.~`"~._.~"~._.~"~._^_.~"~._.~"~._.~"~._.~`"~.-0-.~"~._.~"~._.~"~._.~"~._
+```````^:^````````                                                                                 /|\                        
+First and last runs:
+v5.02	May  6 09:51:32 2024	b3 x0	0.891	0.610	0.495	P:1000 R:1000 waves/sharks/vnd_NEE_Dmela.txt (+1696 bp)	 
+v5.02	May  6 09:51:48 2024	b3 x0	0.759	0.565	0.426	P:1000 R:1000 waves/seals/Med15_A_gossypii_gal11.txt (+3963 bp)	 
+
+Number of tests initiated:         47
+Number of tests completed:         47
+Number of tests w/ PASS 1000:      47
+Number of tests w/ REC. 1000:      47
+
+Tests canceled (if any, w/ preceding run for context):
+Tests with PASS < 1000 (if any):
+Tests with REC. < 1000 (if any):
+
+WCR-t average: 0.852489
+WCR-k average: 0.618468
+WCR-d average: 0.467574
+
+WCR avg history (47 tests @ b=3): 0.467404 ->0.467574
+
