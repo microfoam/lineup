@@ -12,8 +12,8 @@ To use either of these pre-compiled versions with any of the 'surfboard_lowercas
 
 Version numbers represent program development versions that increase in steps of 0.01.
 We are 'pre-release' of the first official release, a little bit of the 'journey is the destination' with public access.
-Nonetheless, at this moment and this perspective, we can say that the construction work has moved up from the south-east and south-west and joined here,
-carried out by two great armies of workers, and some angels. 
+To recompile the program on macOS or Linux platforms, simply run the script file called "surfboard-Pop_Up".
+(All script files are named with the base name "surfboard-".) 
 
 Some of the file descriptions below may be a bit outdated but still convey the spirit of this project.
 
