@@ -82,7 +82,7 @@ int main(int argc, char *argv[])
 	int slipreps[WIDTH+1] = {0};	/* Array of counters for reps by k-mer size	*/
 	int slipskrmod3[WIDTH+1]={0};	/* Array of counters for k*r mod(3) slips 	*/
 	char cycle[WIDTH+1];		/* THIS ARRAY HOLDS THE CYCLIC PATTERN OF TRs W/ >2 UNITS */
-	char Seq_head[120] = {0};	/* FASTA HEADER */
+	char Seq_head[MAXHEAD] = {0};	/* FASTA HEADER; MAXHEAD=120 */
 	char Seq_i[MAXROW] = "TGTGTGAGTGAnnnnnnTGTGTGAGTGAGnnnnnTGTGTGAGTGAGTGAnnTGTGTGAGTGAGTGAGT"; 	/* INPUT SEQUENCE W/ DEFAULT */
 	char *Seq_r = NULL; 	 	/* RANDOMIZED SEQUENCE */
 	char *Seq = Seq_i;			/* POINTER TO INPUT SEQUENCE */
@@ -161,16 +161,19 @@ int main(int argc, char *argv[])
 	
 					/* CHECK FOR FASTA HEADER AND SAVE IN Seq_head, THEN MASK IN Seq */
 					if (Seq_i[0] == fastahead.sym) {
-						for (j = 0; Seq_i[j+1] != '\n' && Seq_i[j+1] != '\r' && j < 100; j++) {
-							Seq_head[j] = Seq_i[j+1];
+						for (j=0; j<MAXHEAD && Seq_i[j]!='\n' && Seq_i[j]!='\r'; j++) {
+							Seq_head[j] = Seq_i[j];
 						}
 
+						if (j==MAXHEAD) {
+							while (Seq_i[j]!='\n' && Seq_i[j]!='\r')
+								j++;
+						}
 						/* SCOOCH STRING INTO FASTA HEADER SPACE (ERASING IT) */
-						k = (int) strlen(Seq_head) + 2;
-						for (j = 0; Seq_i[j+k] != '\0'; j++)
-							Seq_i[j] = Seq_i[j+k];
+						for (k = 0; Seq_i[j+k]!='\0'; k++)
+							Seq_i[k] = Seq_i[j+k];
 	
-						Seq_i[j] = '\0';	
+						Seq_i[k] = '\0';	
 					}
 					else 
 						strcpy(Seq_head, "input");
