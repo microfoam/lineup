@@ -82,7 +82,7 @@ int main(int argc, char *argv[])
 	int slipreps[WIDTH+1] = {0};	/* Array of counters for reps by k-mer size	*/
 	int slipskrmod3[WIDTH+1]={0};	/* Array of counters for k*r mod(3) slips 	*/
 	char cycle[WIDTH+1];		/* THIS ARRAY HOLDS THE CYCLIC PATTERN OF TRs W/ >2 UNITS */
-	char Seq_head[100] = {0};	/* FASTA HEADER */
+	char Seq_head[120] = {0};	/* FASTA HEADER */
 	char Seq_i[MAXROW] = "TGTGTGAGTGAnnnnnnTGTGTGAGTGAGnnnnnTGTGTGAGTGAGTGAnnTGTGTGAGTGAGTGAGT"; 	/* INPUT SEQUENCE W/ DEFAULT */
 	char *Seq_r = NULL; 	 	/* RANDOMIZED SEQUENCE */
 	char *Seq = Seq_i;			/* POINTER TO INPUT SEQUENCE */
@@ -1781,8 +1781,10 @@ int main(int argc, char *argv[])
 			}
 		}
 		printf("\n");
-		printf(" Proportion of zero mod 3   k-mers: %.4f\n", (float) sum_k_mod3s / Cinch_T.pass_R);
-		printf(" Proportion of zero mod 3 r*k-mers: %.4f\n", (float) sum_kr_mod3s / Cinch_T.pass_R);
+		if (Cinch_T.pass_R) {
+			printf(" Proportion of zero mod 3   k-mers: %.4f\n", (float) sum_k_mod3s / Cinch_T.pass_R);
+			printf(" Proportion of zero mod 3 r*k-mers: %.4f\n", (float) sum_kr_mod3s / Cinch_T.pass_R);
+		}
 		printf(" Cinch-t cinching rate: %.4f / %s\n", (float) Cinch_T.pass_R / lenseq, letr_unit);
 		print_section_spacer();
 	}
