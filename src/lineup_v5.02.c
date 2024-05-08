@@ -78,7 +78,8 @@ int main(int argc, char *argv[])
 
 	int scooch = 0;
 
-	int slips[WIDTH+1] = {0};	/* Array of counters for unique slips of WIDTH x	*/
+	int slips[WIDTH+1] = {0};	/* Array of counters for unique slips of WIDTH x (k-mer size)	*/
+	int slipreps[WIDTH+1] = {0};	/* Array of counters for reps by k-mer size	*/
 	int slipskrmod3[WIDTH+1]={0};	/* Array of counters for k*r mod(3) slips 	*/
 	char cycle[WIDTH+1];		/* THIS ARRAY HOLDS THE CYCLIC PATTERN OF TRs W/ >2 UNITS */
 	char Seq_head[100] = {0};	/* FASTA HEADER */
@@ -1475,6 +1476,7 @@ int main(int argc, char *argv[])
 						n = n + reps*k;
 						a2D_n = a2D_n + overslip;
 						r = 0;
+						slipreps[k] += reps;
 						if ((k*reps)%3 == 0)
 							++slipskrmod3[k];
 						break;
@@ -1767,11 +1769,11 @@ int main(int argc, char *argv[])
 
 		int sum_k_mod3s = 0, sum_kr_mod3s = 0;
 
-		printf(" Unique cinch-t k-mers: %4d\t(r*k mod3 = 0)\n", Cinch_T.pass_R);
+		printf(" Unique cinch-t k-mers: %4d\t(rk_mod3=0; avg. rep. #)\n", Cinch_T.pass_R);
 
 		for (i = 2; i <= WIDTH; i++) {
 			if (slips[i]) {
-				printf(" %16d-mers:%5d\t(%5d)\n", i, slips[i], slipskrmod3[i]);
+				printf(" %16d-mers:%5d\t(%5d    ; %7.3f    )\n", i, slips[i], slipskrmod3[i], (float) slipreps[i]/slips[i]);
 				if (!(i%3)) {
 					sum_k_mod3s += slips[i];
 				}
