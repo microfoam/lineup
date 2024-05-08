@@ -1,5 +1,5 @@
 /******************************************************************/
-/* microhom-devl.h header file, since mha_v4.23.c                 */
+/* microhom-devl.h header file                                    */
 /* This file has MHA functions related to program development,    */
 /* testing, error emission, and evaluation.                       */
 /******************************************************************/
@@ -59,7 +59,7 @@ void dev_prompt(short unsigned int mode, int line_no, char *filename)
 	else if (opt_D.bit) {	/* IF opt_D DEV_PROMPTS ON */
 		if (opt_v.val>1)
 			dev_linehead(mode, line_no);		
-		printf("\n./maximal: Hit <enter> to continue run of %s (%c), or enter 'q' to quit this run.\n", filename, Strand->sym);
+		printf("\n./lineup: Hit <enter> to continue run of %s (%c), or enter 'q' to quit this run.\n", filename, Strand->sym);
 		char key=getchar();
 		if (key=='q' || key=='Q')
 			exit(17);
@@ -99,6 +99,6 @@ void signal_callback_handler(int signum)
 
 #endif		/* !FILE_DEVL_SEEN */
 
-/*************************************************************************************************************/
-/* WRITTEN BY DR. ALBERT J. ERIVES, AGPL-3.0 license. Code available at https://github.com/microfoam/maximal */
-/*************************************************************************************************************/
+/************************************************************************************************************/
+/* WRITTEN BY DR. ALBERT J. ERIVES, AGPL-3.0 license. Code available at https://github.com/microfoam/lineup */
+/************************************************************************************************************/

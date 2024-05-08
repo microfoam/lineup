@@ -1,5 +1,5 @@
 /******************************************************************/
-/* microhom-skor.h header file, since mha_v4.12.c                 */
+/* microhom-skor.h header file                                    */
 /* This file has MHA functions and definions related to scoring.  */
 /******************************************************************/
 
@@ -106,6 +106,6 @@ void show_DTHR_table(void)
 
 #endif		/* !FILE_SKOR_SEEN */
 
-/*************************************************************************************************************/
-/* WRITTEN BY DR. ALBERT J. ERIVES, AGPL-3.0 license. Code available at https://github.com/microfoam/maximal */
-/*************************************************************************************************************/
+/************************************************************************************************************/
+/* WRITTEN BY DR. ALBERT J. ERIVES, AGPL-3.0 license. Code available at https://github.com/microfoam/lineup */
+/************************************************************************************************************/

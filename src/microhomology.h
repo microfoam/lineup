@@ -1,6 +1,6 @@
-/******************************************************************/
-/* lineup's microhomology.h: header file since mha_v3.97.c       */
-/******************************************************************/
+/*****************************************/
+/* lineup's microhomology.h header file  */
+/*****************************************/
 
 #ifndef FILE_LOGY_SEEN
 #define FILE_LOGY_SEEN
@@ -156,7 +156,7 @@ struct {
 	par_wrap = {100, "columns", "Sets screen wrap length for 2-D alignment.                    ", "opt_u"};
 
 
-/* This unnamed struct type organizes a set of pointers and names for mha's 2-D alignment character set.               */
+/* This unnamed struct type organizes a set of pointers and names for lineup's 2-D alignment character set.           */
 /* Note that much of lineup's legacy code relies on isalpha(), so many symbols cannot be changed to alpha characters. */
 struct {
 	char	sym;	/* character symbol      */
@@ -1575,6 +1575,6 @@ void print_section_spacer(void) {
 
 #endif		/* !FILE_LOGY_SEEN */
 
-/*************************************************************************************************************/
-/* WRITTEN BY DR. ALBERT J. ERIVES, AGPL-3.0 license. Code available at https://github.com/microfoam/maximal */
-/*************************************************************************************************************/
+/************************************************************************************************************/
+/* WRITTEN BY DR. ALBERT J. ERIVES, AGPL-3.0 license. Code available at https://github.com/microfoam/lineup */
+/************************************************************************************************************/

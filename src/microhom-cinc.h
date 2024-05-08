@@ -1,5 +1,5 @@
 /******************************************************************/
-/* microhom-cinc.h header file, since mha_v4.26.c                 */
+/* microhom-cinc.h header file                                    */
 /* This file has MHA the original cinch modules called in         */
 /* sequence as listed below.                                      */
 /******************************************************************/
@@ -1149,6 +1149,6 @@ char	letr;
 
 #endif		/* !FILE_CINC_SEEN */
 
-/*************************************************************************************************************/
-/* WRITTEN BY DR. ALBERT J. ERIVES, AGPL-3.0 license. Code available at https://github.com/microfoam/maximal */
-/*************************************************************************************************************/
+/************************************************************************************************************/
+/* WRITTEN BY DR. ALBERT J. ERIVES, AGPL-3.0 license. Code available at https://github.com/microfoam/lineup */
+/************************************************************************************************************/

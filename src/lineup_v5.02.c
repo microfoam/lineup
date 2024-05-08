@@ -1,9 +1,9 @@
-/*******************************************************************************************************/
-/***** The program "lineup" is a prototype tool for exploring micro-homology alignment (MHA).      *****/
-/***** Designed and written by Dr. Albert J. Erives. 2017-2024. AGPL-3.0.                          *****/
-/***** Code repository located at https://github.com/microfoam/maximal. Licensed under AGPL-3.0.   *****/
-/***** This program renders a 1-D DNA sequence into a 2-D self-alignment to align micro-paralogy.  *****/
-/*******************************************************************************************************/
+/******************************************************************************************************/
+/***** The program "lineup" is a prototype tool for exploring micro-homology alignment (MHA).     *****/
+/***** Designed and written by Dr. Albert J. Erives. 2017-2024. AGPL-3.0.                         *****/
+/***** Code repository located at https://github.com/microfoam/lineup. Licensed under AGPL-3.0.   *****/
+/***** This program renders a 1-D DNA sequence into a 2-D self-alignment to align micro-paralogy. *****/
+/******************************************************************************************************/
 
 #include <stdio.h>			/********************/
 #include <math.h>			/* mathematical!    */
@@ -2044,6 +2044,6 @@ int main(int argc, char *argv[])
 } 
 
 
-/*************************************************************************************************************/
-/* WRITTEN BY DR. ALBERT J. ERIVES, AGPL-3.0 license. Code available at https://github.com/microfoam/maximal */
-/*************************************************************************************************************/
+/************************************************************************************************************/
+/* WRITTEN BY DR. ALBERT J. ERIVES, AGPL-3.0 license. Code available at https://github.com/microfoam/lineup */
+/************************************************************************************************************/
