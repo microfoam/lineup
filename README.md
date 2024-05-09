@@ -1,7 +1,7 @@
 # lineup
 lineup is a prototype program designed to explore the world of micro-paralogy gapped alignment (MPGA), created and written by Albert Erives (albert-erives@uiowa.edu).
 
-As a prototype, sketch implementation of MPGA, the current versions of lineup feature a rich set of run options in order to encourage a free, open-minded, heuristics-friendly development cycle.
+As a prototype sketch implementation of MPGA, the current versions of lineup feature a rich set of run options in order to encourage a free, open-minded, heuristics-friendly development cycle.
 Program options can be seen by running ./lineup without any options specified.
 
 Version v5.02 is the current version and the first to be tested without any known issues on both macOS and Linux platforms. 
