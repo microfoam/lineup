@@ -1,11 +1,10 @@
 # lineup
-lineup (pre-v5.01 versions were called 'maximal') is a prototype program designed to explore the world of micro-homology alignment (MHA), created and written by Albert Erives (albert-erives@uiowa.edu).
-MHA methodology is philosophically-distinct from gapped alignment in embracing local microparalogy as a fundamental feature of biological sequence.
+lineup is a prototype program designed to explore the world of micro-paralogy gapped alignment (MPGA), created and written by Albert Erives (albert-erives@uiowa.edu).
 
-As a prototype, sketch implementation of MHA, the current versions of lineup feature a rich set of run options in order to encourage a free, open-minded, heuristics-friendly development cycle.
+As a prototype, sketch implementation of MPGA, the current versions of lineup feature a rich set of run options in order to encourage a free, open-minded, heuristics-friendly development cycle.
 Program options can be seen by running ./lineup without any options specified.
 
-Version v4.37 is the current version and the first to be tested without any known issues on both macOS and Linux platforms. 
+Version v5.02 is the current version and the first to be tested without any known issues on both macOS and Linux platforms. 
 To compile for either platform, run the script './surfboard-Pop_Up', which will produce an executable named 'lineup'.
 For development and testing purposes, two executable binaries are included ('lineup-macOS-binary' and 'lineup-Linux-binary').
 To use either of these pre-compiled versions with any of the 'surfboard_lowercase_namespace' script, the appropriate binary can be copied or renamed to 'lineup'.
