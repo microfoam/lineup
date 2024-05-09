@@ -162,8 +162,9 @@ int main(int argc, char *argv[])
 					/* CHECK FOR FASTA HEADER AND SAVE IN Seq_head, THEN MASK IN Seq */
 					if (Seq_i[0] == fastahead.sym) {
 						for (j=0; j<MAXHEAD && Seq_i[j]!='\n' && Seq_i[j]!='\r'; j++) {
-							Seq_head[j] = Seq_i[j];
+							Seq_head[j] = Seq_i[j+1];
 						}
+						Seq_head[MAXHEAD-1] = '\0';
 
 						if (j==MAXHEAD) {
 							while (Seq_i[j]!='\n' && Seq_i[j]!='\r')
