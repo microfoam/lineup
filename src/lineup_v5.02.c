@@ -590,6 +590,11 @@ int main(int argc, char *argv[])
 		printf("Sequence (length %d) exceeds MAXROW size limit (%d) by %d.\n\n", lenseq, MAXROW, lenseq-MAXROW+1);
 		exit(1);
 	}
+	else if (!lenseq) {
+		warnhead('L');
+		printf("Sequence has no length!\n\n");
+		exit(1);
+	}
 
 	++Current.pass_V;
 
@@ -623,6 +628,11 @@ int main(int argc, char *argv[])
 	Clean.pass_V = seqtype = cleanseq(Seq);	/* SEQTYPE: 1=DNA, 2=RNA, 3=PROTEIN, 0=OTHER */
 	lenseq = strlen(Seq);
 	Clean.pass_W = Current.pass_W = lenseq;	/* ASSIGN CINCH-WIDTH TO HISTORY [0--9] AND CURRENT */
+	if (!lenseq) {
+		warnhead('L');
+		printf("Sequence has no length!\n\n");
+		exit(1);
+	}
 
 	consensus = calloc(lenseq+1, sizeof(char *));	/* +1 for Terminal character '>' */
 
