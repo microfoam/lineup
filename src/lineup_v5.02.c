@@ -161,18 +161,21 @@ int main(int argc, char *argv[])
 	
 					/* CHECK FOR FASTA HEADER AND SAVE IN Seq_head, THEN MASK IN Seq */
 					if (Seq_i[0] == fastahead.sym) {
-						for (j=0; j<MAXHEAD && Seq_i[j]!='\n' && Seq_i[j]!='\r'; j++) {
+						for (j=0; j<MAXHEAD-1 && Seq_i[j+1]!='\n' && Seq_i[j+1]!='\r'; j++) {
 							Seq_head[j] = Seq_i[j+1];
 						}
-						Seq_head[MAXHEAD-1] = '\0';
+						if (j==MAXHEAD-1)
+							Seq_head[MAXHEAD-1] = '\0';
+						else
+							Seq_head[j+1] = '\0';
 
-						if (j==MAXHEAD) {
+						if (j==MAXHEAD-1) {
 							while (Seq_i[j]!='\n' && Seq_i[j]!='\r')
 								j++;
 						}
 						/* SCOOCH STRING INTO FASTA HEADER SPACE (ERASING IT) */
-						for (k = 0; Seq_i[j+k]!='\0'; k++)
-							Seq_i[k] = Seq_i[j+k];
+						for (k = 0; Seq_i[j+k+1]!='\0'; k++)
+							Seq_i[k] = Seq_i[j+k+1];
 	
 						Seq_i[k] = '\0';	
 					}
