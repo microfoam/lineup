@@ -167,7 +167,7 @@ int main(int argc, char *argv[])
 						if (j==MAXHEAD-1)
 							Seq_head[MAXHEAD-1] = '\0';
 						else
-							Seq_head[j+1] = '\0';
+							Seq_head[j] = '\0';
 
 						if (j==MAXHEAD-1) {
 							while (Seq_i[j]!='\n' && Seq_i[j]!='\r')
