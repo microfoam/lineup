@@ -78,11 +78,11 @@ int main(int argc, char *argv[])
 
 	int scooch = 0;
 
-	int slips[WIDTH+1] = {0};	/* Array of counters for unique slips of WIDTH x (k-mer size)	*/
-	int slipreps[WIDTH+1] = {0};	/* Array of counters for reps by k-mer size	*/
-	int slipskrmod3[WIDTH+1]={0};	/* Array of counters for k*r mod(3) slips 	*/
-	char cycle[WIDTH+1];		/* THIS ARRAY HOLDS THE CYCLIC PATTERN OF TRs W/ >2 UNITS */
-	char Seq_head[MAXHEAD] = {0};	/* FASTA HEADER; MAXHEAD=120 */
+	int slips[WIDTH+1]={0};       /* Array of counters for unique slips of WIDTH x (k-mer size)	*/
+	int slipreps[WIDTH+1]={0};    /* Array of counters for reps by k-mer size	*/
+	int slipskrmod3[WIDTH+1]={0}; /* Array of counters for k*r mod(3) slips 	*/
+	char cycle[MAXROW]={0};       /* THIS ARRAY HOLDS THE CYCLIC PATTERN OF TRs W/ >2 UNITS */
+	char Seq_head[MAXHEAD]={0};   /* FASTA HEADER; MAXHEAD=120 */
 	char Seq_i[MAXROW] = "TGTGTGAGTGAnnnnnnTGTGTGAGTGAGnnnnnTGTGTGAGTGAGTGAnnTGTGTGAGTGAGTGAGT"; 	/* INPUT SEQUENCE W/ DEFAULT */
 	char *Seq_r = NULL; 	 	/* RANDOMIZED SEQUENCE */
 	char *Seq = Seq_i;			/* POINTER TO INPUT SEQUENCE */
