@@ -1539,7 +1539,7 @@ int main(int argc, char *argv[])
 	}
 	free(cinchbox);
 
-	if (opt_v.bit)
+	if (opt_v.bit || opt_l.bit)
 		print1D();
 
 	/********* 2. cinch_t MODULE: WRAPS LARGEST EXACT k-mers, IGNORES INTRA-TR TRs *****************/
