@@ -83,7 +83,8 @@ int main(int argc, char *argv[])
 	int slipskrmod3[WIDTH+1]={0}; /* Array of counters for k*r mod(3) slips 	*/
 	char cycle[MAXROW]={0};       /* THIS ARRAY HOLDS THE CYCLIC PATTERN OF TRs W/ >2 UNITS */
 	char Seq_head[MAXHEAD]={0};   /* FASTA HEADER; MAXHEAD=120 */
-	char Seq_i[MAXROW] = "TGTGTGAGTGAnnnnnnTGTGTGAGTGAGnnnnnTGTGTGAGTGAGTGAnnTGTGTGAGTGAGTGAGT"; 	/* INPUT SEQUENCE W/ DEFAULT */
+	char Seq_i[MAXROW] = {0};
+	strcpy(Seq_i, "TGTGTGAGTGAnnnnnnTGTGTGAGTGAGnnnnnTGTGTGAGTGAGTGAnnTGTGTGAGTGAGTGAGT"); 	/* DEFAULT INPUT */
 	char *Seq_r = NULL; 	 	/* RANDOMIZED SEQUENCE */
 	char *Seq = Seq_i;			/* POINTER TO INPUT SEQUENCE */
 	char *ralign2D = NULL;		/* 'R'EAD ALIGN2D FROM PREVIOUS AUTO-MHA */
@@ -174,13 +175,15 @@ int main(int argc, char *argv[])
 								j++;
 						}
 						/* SCOOCH STRING INTO FASTA HEADER SPACE (ERASING IT) */
-						for (k = 0; Seq_i[j+k+1]!='\0'; k++)
+						for (k = 0; Seq_i[j+k+1]!='\0' && k<MAXROW-1; k++)
 							Seq_i[k] = Seq_i[j+k+1];
 	
 						Seq_i[k] = '\0';	
 					}
-					else 
+					else {
+						Seq_i[MAXROW-1]='\0';
 						strcpy(Seq_head, "input");
+					}
 				}
 			}
 			else {
@@ -589,6 +592,7 @@ int main(int argc, char *argv[])
 	/* INITIALIZATIONS/DECLARATIONS AFTER OPTIONS */
 	lenseq = strlen(Seq) - 1;
 	if (lenseq > MAXROW) {		/* LAST ROW OF array2D WILL STORE CONSENSUS, SO NEED TO KEEP CLEAR */
+printf("\n Seq=%s", Seq);
 		warnhead('M');
 		printf("Sequence (length %d) exceeds MAXROW size limit (%d) by %d.\n\n", lenseq, MAXROW, lenseq-MAXROW+1);
 		exit(1);
